@@ -16,29 +16,45 @@
       <i class="material-icons">more_horiz</i>
     </div>
     <div class="img-area">
-      <img src="images/music1.jpg" alt="">
+      <img src="" alt="">
     </div>
     <div class="song-details">
       <p class="name">BIGBANG - 봄여름가을겨울</p>
       <p class="artist">BIGBANG</p>
     </div>
     <div class="progress-area">
-      <div class="progress-bar"></div>
-      <div class="timer">
-        <span class="current">0:20</span>
-        <span class="current">3:40</span>
+      <div class="progress-bar">
+        <audio src="" id="main-audio"></audio>
+      </div>
+      <div class="song-timer">
+        <span class="current-time">0:00</span>
+        <span class="max-duration">3:13</span>
       </div>
     </div>
     <div class="controls">
-      <i id="repeat-plist" class="material-icons">repeat</i>
-      <i id="repeat-plist" class="material-icons">skip_previous</i>
+      <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+      <i id="prev" class="material-icons">skip_previous</i>
       <div class="play-pause">
-        <i class="material-icons">play_arrow</i>
+        <i class="material-icons play">play_arrow</i>
       </div>
-      <i id="repeat-plist" class="material-icons">repeat</i>
-      <i id="repeat-plist" class="material-icons">repeat</i>
+      <i id="next" class="material-icons">skip_next</i>
+      <i id="more-music" class="material-icons">queue_music</i>
+    </div>
+    <div class="music-list">
+      <div class="header">
+        <div class="row">
+          <i class="list material-icons">queue_music</i>
+          <span>Music list</span>
+        </div>
+        <i id="close" class="material-icons">close</i>
+      </div>
+      <ul>
+      </ul>
     </div>
   </div>
   <!--//wrapper -->
+
+  <script src="js/music-list.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
