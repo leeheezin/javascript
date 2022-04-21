@@ -1,0 +1,52 @@
+*{
+  margin: 0; padding: 0;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f1f1f1;
+}
+.header {
+  width: 100%;
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem;
+}
+.word_display {
+  margin-top: 3rem;
+  font-size: 80px;
+  font-weight: 600;
+}
+.word_input_box {
+  margin-top: 2rem;
+}
+.word_input {
+  padding: 0.5rem;
+  width: 300px;
+}
+.game_info {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.time, .score {
+  font-size: 30px;
+}
+.button {
+  width: 210px;
+  height: 40px;
+  background: #222;
+  color: #fff;
+  border: none;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.loading {
+  background: #c4c4c4;
+  cursor: not-allowed;
+}
