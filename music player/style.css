@@ -128,8 +128,7 @@ body {
   height: 54px;
   width: 54px;
   cursor: pointer;
-  background: linear-gradient(90deg, #fff 0%, #c4c4c4 100%);
-  box-shadow: 0 0 5px #c2c2c2;
+  background: linear-gradient(90deg, #fff 0%, #c1c1c1 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
