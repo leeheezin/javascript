@@ -1,5 +1,5 @@
 const typingText = document.querySelector(".typing_text p"),
-inpField = document.querySelector(".wrapper .input_field"),
+inpField = document.querySelector(".typing_wrapper .input_field"),
 tryAgainBtn = document.querySelector(".content button"),
 timeTag = document.querySelector(".time span b"),
 mistakeTag = document.querySelector(".mistake span"),

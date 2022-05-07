@@ -8,16 +8,17 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #c4c4c4;
 }
-.wrapper {
+.typing_wrapper {
   width: 770px;
-  padding: 35px;
+  padding: 2%;
   background: #fff;
   border-radius: 10px;
+  border: 1px solid #ccc;
 }
-.wrapper .content_box {
-  padding: 13px 20px 0;
+.input_field {width: 80%; margin-bottom: 2%;}
+.typing_wrapper .content_box {
+  padding: 2% 3% 0;
   border: 1px solid #c0c0c0;
   border-radius: 10px;
 }
@@ -75,7 +76,7 @@ body {
   border: none;
   outline: none;
   width: 105px;
-  background: #222;
+  background: #2a57dc;
   color: #fff;
   padding: 8px 0;
   cursor: pointer;
@@ -99,7 +100,6 @@ body {
 }
 .result_details li:not(:first-child){
   padding-left: 22px;
-  border-left: 1px solid #ccc;
 }
 .result_details li p {
   font-size: 19px;
