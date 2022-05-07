@@ -1,4 +1,10 @@
-body {background-color: #E9EFFB;}
+body {
+  background-color: #E9EFFB;
+  position: relative;
+  width: 100%;
+  height: 77vh;
+  margin-top: 5%;
+}
 .music_wrapper {
   position: relative;
   position: absolute;
