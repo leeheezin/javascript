@@ -5,6 +5,7 @@ ul{
 body{
   height: 100%;
   overflow: hidden;
+  background-color: #2a57dc;
 }
 .game-text {
   display: none;
@@ -29,8 +30,8 @@ body{
 }
 .score{
   text-align: center;
-  font-size: 25px;
-  margin-bottom: 1rem;
+  font-size: 36px;
+  margin-bottom: 2rem;
   color: #fff;
 }
 .playground > ul {
@@ -53,7 +54,7 @@ body{
   background-color: yellow;
 }
 .tree {
-  background-color: #c4c4c4;
+  background-color: #C1C2C8;
 }.bar {
   background-color: #5DCEFF;
 }.zee {
