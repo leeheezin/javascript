@@ -30,7 +30,8 @@ body{
 .score{
   text-align: center;
   font-size: 25px;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
 }
 .playground > ul {
   width: 310px;
