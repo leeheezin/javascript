@@ -1,6 +1,8 @@
 body {
   background-color: #E9EFFB;
   position: relative;
+  height: 77vh;
+  margin-top: 6%;
 }
 .wrapper {
   position: relative;
