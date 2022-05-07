@@ -13,7 +13,7 @@ body {background: var(--point);}
 }
 .play_time {
   font-size: 2rem;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   color: var(--text);
 }
 ul {
