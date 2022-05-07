@@ -12,7 +12,7 @@ body {background: var(--point);}
   flex-direction: column;
 }
 .play_time {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-top: 2rem;
   color: var(--text);
 }
