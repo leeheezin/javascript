@@ -5,7 +5,7 @@ body {
   height: 77vh;
   margin-top: 5%;
 }
-.music_wrapper {
+.wrapper {
   position: relative;
   position: absolute;
   left: 25%;
@@ -17,7 +17,7 @@ body {
   background: #fff;
   padding: 15px 20px;
 }
-.music_wrapper i {
+.wrapper i {
   cursor: pointer;
 }
 .top-bar, .progress-area .song-timer, .controls, .music-list .header, .music-list ul li{
