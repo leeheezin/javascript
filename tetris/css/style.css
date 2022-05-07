@@ -34,19 +34,19 @@ body{
   margin-bottom: 2rem;
 }
 .playground > ul {
-  width: 290px;
+  width: 250px;
   margin: 0 auto;
 }
 .playground > ul > li {
   width: 100%;
-  height: 24px;
+  height: 30px;
 }
 .playground > ul > li > ul {
   display: flex;
 }
 .playground > ul > li > ul > li {
   width: 30px;
-  height: 24px;
+  height: 30px;
   outline: 1px solid #1459e4;
 }
 .square {
