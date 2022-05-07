@@ -9,9 +9,9 @@ let words = [];
 
 const wordInput = document.querySelector(".word_input");
 const wordDisplay = document.querySelector(".word_display");
-const scoreDisplay = document.querySelector(".score");
-const timeDisplay = document.querySelector(".time");
-const button = document.querySelector(".button");
+const scoreDisplay = document.querySelector(".typingscore");
+const timeDisplay = document.querySelector(".timeleft");
+const button = document.querySelector(".typing_button");
 
 init();
 
