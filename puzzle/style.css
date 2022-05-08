@@ -12,12 +12,12 @@ body {background: var(--point);}
   flex-direction: column;
 }
 .play_time {
-  font-size: 2rem;
-  margin-top: 0.5rem;
+  font-size: 2vw;
+  margin-top: 1vw;
   color: var(--text);
 }
 ul {
-  margin-top: 1rem;
+  margin-top: 1vw;
   list-style: none;
   border: 2px solid var(--point);
   display: grid;
@@ -34,9 +34,9 @@ ul li {
   background: var(--point);
   color: var(--text);
   border: 1px solid var(--text);
-  padding: 1rem 7rem;
-  margin-top: 1rem;
-  letter-spacing: 0.5rem;
+  padding: 1% 6%;
+  margin-top: 1%;
+  letter-spacing: 0.2vw;
   text-transform: uppercase;
   cursor: pointer;
   transition: 0.2s ease-out;
