@@ -49,11 +49,11 @@ function setGame(){
 function createImageTiles(){
   const tempArray = [];
   Array(tileCount).fill().forEach((_, i) => {
-    const li = document.createElement("li");
-    li.setAttribute("data-index", i)
-    li.setAttribute("draggable", "true");
-    li.classList.add(`list${i}`);
-    tempArray.push(li)
+    const a = document.createElement("a");
+    a.setAttribute("data-index", i)
+    a.setAttribute("draggable", "true");
+    a.classList.add(`list${i}`);
+    tempArray.push(a)
   })
   return tempArray;
 }
