@@ -10,20 +10,19 @@ body {
   min-height: 100vh;
 }
 .typing_wrapper {
-  width: 95%;
+  width: 90%;
   padding: 2%;
   background: #fff;
-  border-radius: 10px;
   border: 1px solid #ccc;
 }
 .input_field {
   width: 80%;
   margin-bottom: 2%;
+  padding: 1%;
 }
 .typing_wrapper .content_box {
   padding: 2% 3% 0;
   border: 1px solid #c0c0c0;
-  border-radius: 10px;
 }
 .content_box .typing_text {
   max-height: 255px;
@@ -33,9 +32,8 @@ body {
   width: 0;
 }
 .typing_text p {
-  font-size: 5vw;
+  font-size: 4vw;
   text-align: justify;
-  letter-spacing: 1px;
   word-break: break-all;
 }
 .typing_text p span {
@@ -69,8 +67,8 @@ body {
 }
 .content_box .content {
   display: flex;
-  margin-top: 17px;
-  padding: 12px 0;
+  margin-top: 4%;
+  padding: 2% 0;
   border-top: 1px solid #ccc;
   justify-content: space-between;
   align-items: center;
@@ -78,13 +76,12 @@ body {
 .content button {
   border: none;
   outline: none;
-  width: 40%;
+  width: 24%;
   background: #2a57dc;
   color: #fff;
   padding: 2% 0;
   cursor: pointer;
   font-size: 3vw;
-  border-radius: 5px;
   transition: transform 0.3s ease;
 }
 .content button:active {
@@ -96,13 +93,12 @@ body {
   width: calc(100%-140px);
 }
 .result_details li {
-  height: 22px;
   list-style: none;
   display: flex;
   align-items: center;
 }
 .result_details li:not(:first-child) {
-  padding-left: 22px;
+  padding-left: 5%;
 }
 .result_details li p {
   font-size: 3vw;
@@ -110,7 +106,7 @@ body {
 .result_details li span {
   display: block;
   margin-left: 10px;
-  font-size: 4vw;
+  font-size: 3vw;
 }
 .result_details li:not(:first-child) span {
   font-weight: 500;
