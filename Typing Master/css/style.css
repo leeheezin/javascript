@@ -1,7 +1,8 @@
-*{
-  margin: 0; padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
+body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,8 +18,8 @@ body{
   margin-top: 2rem;
 }
 .word_input {
-  padding: 0.5rem;
-  width: 300px;
+  padding: 2%;
+  width: 100%;
 }
 .game_info {
   margin-top: 2rem;
@@ -28,14 +29,15 @@ body{
   width: 200px;
   color: #1a1e6d;
 }
-.timeleft, .typingscore {
+.timeleft,
+.typingscore {
   font-size: 30px;
   color: #1a1e6d;
 }
 .typing_button {
   width: 210px;
   height: 40px;
-  background: #D1D9FF;
+  background: #d1d9ff;
   color: #fff;
   border: none;
   margin-top: 2rem;
