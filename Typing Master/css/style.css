@@ -15,7 +15,8 @@ body {
   color: #1a1e6d;
 }
 .word_input_box {
-  margin-top: 2rem;
+  margin-top: 5vw;
+  width: 68%;
 }
 .word_input {
   padding: 2%;
