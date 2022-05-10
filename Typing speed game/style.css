@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,13 +10,16 @@ body {
   min-height: 100vh;
 }
 .typing_wrapper {
-  width: 770px;
+  width: 95%;
   padding: 2%;
   background: #fff;
   border-radius: 10px;
   border: 1px solid #ccc;
 }
-.input_field {width: 80%; margin-bottom: 2%;}
+.input_field {
+  width: 80%;
+  margin-bottom: 2%;
+}
 .typing_wrapper .content_box {
   padding: 2% 3% 0;
   border: 1px solid #c0c0c0;
@@ -26,11 +29,11 @@ body {
   max-height: 255px;
   overflow-y: auto;
 }
-.typing_text::-webkit-scrollbar{
+.typing_text::-webkit-scrollbar {
   width: 0;
 }
 .typing_text p {
-  font-size: 21px;
+  font-size: 5vw;
   text-align: justify;
   letter-spacing: 1px;
   word-break: break-all;
@@ -38,29 +41,29 @@ body {
 .typing_text p span {
   position: relative;
 }
-.typing_text p span.correct{
+.typing_text p span.correct {
   color: #c4c4c4;
 }
-.typing_text p span.incorrect{
+.typing_text p span.incorrect {
   color: red;
   border-radius: 4px;
 }
-.typing_text p span.active{
-  color: #1458E4;
+.typing_text p span.active {
+  color: #1458e4;
 }
-.typing_text p span.active::before{
-  content: '';
+.typing_text p span.active::before {
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
   height: 2px;
   width: 100%;
   opacity: 0;
-  background: #1458E4;
+  background: #1458e4;
   animation: blink 1s ease-in-out infinite;
 }
 @keyframes blink {
-  50%{
+  50% {
     opacity: 1;
   }
 }
@@ -71,16 +74,16 @@ body {
   border-top: 1px solid #ccc;
   justify-content: space-between;
   align-items: center;
-} 
+}
 .content button {
   border: none;
   outline: none;
-  width: 105px;
+  width: 40%;
   background: #2a57dc;
   color: #fff;
-  padding: 8px 0;
+  padding: 2% 0;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 3vw;
   border-radius: 5px;
   transition: transform 0.3s ease;
 }
@@ -98,20 +101,20 @@ body {
   display: flex;
   align-items: center;
 }
-.result_details li:not(:first-child){
+.result_details li:not(:first-child) {
   padding-left: 22px;
 }
 .result_details li p {
-  font-size: 19px;
+  font-size: 3vw;
 }
 .result_details li span {
   display: block;
   margin-left: 10px;
-  font-size: 20px;
+  font-size: 4vw;
 }
 .result_details li:not(:first-child) span {
   font-weight: 500;
 }
-.result_details li b{
+.result_details li b {
   font-weight: 500;
 }
