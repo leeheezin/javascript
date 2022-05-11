@@ -1,9 +1,14 @@
-*{margin: 0; padding: 0;}
-body {background: var(--point);}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: var(--point);
+}
 
 :root {
-  --point : #1458E4;
-  --text : #fff;
+  --point: #1458e4;
+  --text: #fff;
 }
 .wrap_all {
   display: flex;
@@ -24,8 +29,8 @@ span {
   grid-template-columns: repeat(4, 1fr);
 }
 a {
-  width: 20vw;
-  height: 20vw;
+  width: 15vw;
+  height: 15vw;
   color: var(--text);
   border: 1px solid var(--text);
   background: url("http://placeimg.com/400/400/nature");
@@ -49,7 +54,7 @@ a {
 .game_text {
   position: absolute;
   font-size: 45px;
-  color: #1458E4;
+  color: #1458e4;
   display: none;
 }
 .list0 {
@@ -57,62 +62,62 @@ a {
   background-position-y: 0;
 }
 .list1 {
-  background-position-x: -20vw;
+  background-position-x: -15vw;
   background-position-y: 0;
 }
 .list2 {
-  background-position-x: -30vw;
+  background-position-x: -25vw;
   background-position-y: 0;
 }
 .list3 {
-  background-position-x: -40vw;
+  background-position-x: -35vw;
   background-position-y: 0;
 }
 .list4 {
   background-position-x: 0;
-  background-position-y: -20vw;
+  background-position-y: -15vw;
 }
 .list5 {
-  background-position-x: -20vw;
-  background-position-y: -20vw;
+  background-position-x: -15vw;
+  background-position-y: -15vw;
 }
 .list6 {
-  background-position-x: -30vw;
-  background-position-y: -20vw;
+  background-position-x: -25vw;
+  background-position-y: -15vw;
 }
 .list7 {
-  background-position-x: -40vw;
-  background-position-y: -20vw;
+  background-position-x: -35vw;
+  background-position-y: -15vw;
 }
 .list8 {
   background-position-x: 0px;
-  background-position-y: -30vw;
+  background-position-y: -25vw;
 }
 .list9 {
-  background-position-x: -20vw;
-  background-position-y: -30vw;
+  background-position-x: -15vw;
+  background-position-y: -25vw;
 }
 .list10 {
-  background-position-x: -30vw;
-  background-position-y: -30vw;
+  background-position-x: -25vw;
+  background-position-y: -25vw;
 }
 .list11 {
-  background-position-x: -40vw;
-  background-position-y: -30vw;
+  background-position-x: -35vw;
+  background-position-y: -25vw;
 }
 .list12 {
   background-position-x: 0;
-  background-position-y: -40vw;
+  background-position-y: -35vw;
 }
 .list13 {
-  background-position-x: -20vw;
-  background-position-y: -40vw;
+  background-position-x: -15vw;
+  background-position-y: -35vw;
 }
 .list14 {
-  background-position-x: -30vw;
-  background-position-y: -40vw;
+  background-position-x: -25vw;
+  background-position-y: -35vw;
 }
 .list15 {
-  background-position-x: -40vw;
-  background-position-y: -40vw;
+  background-position-x: -35vw;
+  background-position-y: -35vw;
 }
