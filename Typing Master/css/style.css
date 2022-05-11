@@ -9,17 +9,17 @@ body {
   align-items: center;
 }
 .word_display {
-  margin-top: 15%;
+  margin-top: 13%;
   font-size: 18vw;
   font-weight: 500;
   color: #1a1e6d;
 }
 .word_input_box {
   margin-top: 5vw;
-  width: 68%;
+  width: 40%;
 }
 .word_input {
-  padding: 2%;
+  padding: 4%;
   width: 100%;
 }
 .game_info {
