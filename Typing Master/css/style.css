@@ -9,8 +9,8 @@ body {
   align-items: center;
 }
 .word_display {
-  margin-top: 3rem;
-  font-size: 80px;
+  margin-top: 15%;
+  font-size: 18vw;
   font-weight: 500;
   color: #1a1e6d;
 }
@@ -23,28 +23,29 @@ body {
   width: 100%;
 }
 .game_info {
-  margin-top: 2rem;
-  font-size: 1.1rem;
+  margin-top: 9%;
+  font-size: 4vw;
   display: flex;
   justify-content: space-between;
-  width: 200px;
-  color: #1a1e6d;
+  width: 40%;
+  color: #5f6997;
 }
 .timeleft,
 .typingscore {
-  font-size: 30px;
+  font-size: 5vw;
   color: #1a1e6d;
 }
 .typing_button {
-  width: 210px;
-  height: 40px;
-  background: #d1d9ff;
+  width: 40%;
+  height: 9vw;
+  background: #112695;
   color: #fff;
   border: none;
-  margin-top: 2rem;
+  margin-top: 5%;
+  font-size: 3vw;
   cursor: pointer;
 }
 .loading {
-  background: #c4c4c4;
+  background: #5f6997;
   cursor: not-allowed;
 }
