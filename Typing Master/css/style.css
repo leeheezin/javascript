@@ -49,6 +49,7 @@ body {
 .typing_button:hover {
   background: #fff;
   color: #112695;
+  border:1px solid #112695;
 }
 .loading {
   background: #5f6997;
