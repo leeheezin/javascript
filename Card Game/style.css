@@ -67,7 +67,7 @@ body {
   transition: ttransform 0.25s linear;
 }
 .card .front_view span {
-  font-size: 40px;
+  font-size: 7vw;
   color: #f1f1f1;
 }
 .card .back_view {
