@@ -86,9 +86,6 @@ body {
   transition: transform 0.3s ease;
   border-radius: 5px;
 }
-.content button:hover {
-  color: #E5E6FF;
-}
 .content button:active {
   transform: scale(0.97);
 }
