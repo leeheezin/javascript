@@ -14,11 +14,12 @@ body {
   padding: 2%;
   background: #fff;
   border: 1px solid #ccc;
+  border-radius: 5px;
 }
 .input_field {
   width: 100%;
   margin-bottom: 2%;
-  padding: 1%;
+  padding: 2%;
 }
 .typing_wrapper .content_box {
   padding: 2% 3% 0;
