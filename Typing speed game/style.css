@@ -87,7 +87,7 @@ body {
   border-radius: 5px;
 }
 .content button:hover {
-  border: 1px solid #2a57dc;
+  border-color: #2a57dc;
   color: #2a57dc;
 }
 .content button:active {
