@@ -11,8 +11,8 @@ body {
   min-height: 100vh;
 }
 .wrapper {
-  width: 400px;
-  height: 400px;
+  width: 70vw;
+  height: 70vw;
   padding: 15px;
   background: #F8FAFF;
   border-radius: 3px;
