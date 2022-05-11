@@ -87,8 +87,7 @@ body {
   border-radius: 5px;
 }
 .content button:hover {
-  border-color: #2a57dc;
-  color: #2a57dc;
+  color: #E5E6FF;
 }
 .content button:active {
   transform: scale(0.97);
