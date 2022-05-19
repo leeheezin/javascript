@@ -40,14 +40,14 @@ body{
 }
 .playground > ul > li {
   width: 100%;
-  height: 30px;
+  height: 4vh;
 }
 .playground > ul > li > ul {
   display: flex;
 }
 .playground > ul > li > ul > li {
-  width: 36px;
-  height: 30px;
+  width: 30vw;
+  height: 4vh;
   outline: 1px solid #fff;
 }
 .square {
