@@ -8,9 +8,10 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  background-color: #1458e4;
 }
 .typing_wrapper {
-  width: 90%;
+  width: 55%;
   padding: 3%;
   background: #fff;
   border: 1px solid #ccc;
@@ -33,7 +34,7 @@ body {
   width: 0;
 }
 .typing_text p {
-  font-size: 4vw;
+  font-size: 2vw;
   text-align: justify;
   word-break: break-all;
 }
@@ -77,12 +78,12 @@ body {
 .content button {
   border: none;
   outline: none;
-  width: 24%;
+  width: 18%;
   background: #2a57dc;
   color: #fff;
   padding: 2% 0;
   cursor: pointer;
-  font-size: 3vw;
+  font-size: 1.3vw;
   transition: transform 0.3s ease;
   border-radius: 5px;
 }
@@ -103,12 +104,12 @@ body {
   padding-left: 5%;
 }
 .result_details li p {
-  font-size: 3vw;
+  font-size: 2vw;
 }
 .result_details li span {
   display: block;
   margin-left: 10px;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 .result_details li:not(:first-child) span {
   font-weight: 500;

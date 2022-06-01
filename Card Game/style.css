@@ -1,23 +1,26 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Jost';
+  font-family: "Jost";
 }
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  background: #e7e7f4;
 }
 .wrapper {
-  width: 70vw;
-  height: 70vw;
-  padding: 15px;
-  background: #F8FAFF;
-  border-radius: 3px;
+  width: 50%;
+  height: 50vw;
+  padding: 16px;
+  background: #f8faff;
+  border-radius: 5px;
 }
-.cards, .card, .view {
+.cards,
+.card,
+.view {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,32 +34,33 @@ body {
 .cards .card {
   position: relative;
   cursor: pointer;
-  perspective: 800px;
+  perspective: 750px;
   transform-style: preserve-3d;
-  width: calc(100% / 4 - 3%);
+  width: calc(100% / 4 - 2%);
   height: calc(100% / 4 - 3%);
 }
 .card.shake {
   animation: shake 0.35s ease-in-out;
 }
 @keyframes shake {
-  0%, 100%{
+  0%,
+  100% {
     transform: translateX(0);
   }
-  20%{
+  20% {
     transform: translateX(-13px);
   }
-  40%{
+  40% {
     transform: translateX(13px);
   }
-  60%{
+  60% {
     transform: translateX(-8px);
   }
-  80%{
+  80% {
     transform: translateX(8px);
   }
 }
-.cards .card .view{
+.cards .card .view {
   position: absolute;
   pointer-events: none;
   user-select: none;
@@ -67,14 +71,14 @@ body {
   transition: ttransform 0.25s linear;
 }
 .card .front_view span {
-  font-size: 7vw;
+  font-size: 5vw;
   color: #f1f1f1;
 }
 .card .back_view {
   transform: rotateY(-180deg);
 }
-.card .back_view img{
-  max-width: 45px;
+.card .back_view img {
+  max-width: 50%;
   border-radius: 8px;
 }
 .card.flip .front_view {

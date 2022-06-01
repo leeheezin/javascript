@@ -7,49 +7,50 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #e7e7f4;
 }
 .word_display {
-  margin-top: 13%;
-  font-size: 18vw;
+  margin-top: 3%;
+  font-size: 10vw;
   font-weight: 500;
   color: #1a1e6d;
 }
 .word_input_box {
-  margin-top: 5vw;
-  width: 40%;
+  margin: 3vw auto;
+  width: 30%;
 }
 .word_input {
-  padding: 4%;
-  width: 91%;
+  padding: 3%;
+  width: 100%;
 }
 .game_info {
-  margin-top: 9%;
-  font-size: 4vw;
+  margin-top: 3%;
+  font-size: 3vw;
   display: flex;
   justify-content: space-between;
-  width: 40%;
+  width: 35%;
   color: #5f6997;
 }
 .timeleft,
 .typingscore {
-  font-size: 5vw;
+  font-size: 3.5vw;
   color: #1a1e6d;
 }
 .typing_button {
-  width: 40%;
-  height: 9vw;
+  width: 35%;
+  height: 6vw;
   background: #112695;
   color: #fff;
   border: none;
-  margin-top: 5%;
-  font-size: 3vw;
+  margin-top: 2%;
+  font-size: 2vw;
   cursor: pointer;
   transition: 0.2s ease-out;
 }
 .typing_button:hover {
   background: #fff;
   color: #112695;
-  border:1px solid #112695;
+  border: 1px solid #112695;
 }
 .loading {
   background: #5f6997;
